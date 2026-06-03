@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# local/server temp
+*.log
+*.tmp
+.env
+.env.*
+
+# backups generated outside this publish folder
+_backups/
+__MACOSX/

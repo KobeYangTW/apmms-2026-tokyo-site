@@ -1,0 +1,43 @@
+APMMS_website 上線說明（靜態網站版）
+
+目前這個資料夾已經是可部署的靜態網站：
+/Users/kobeyang/Desktop/20260513暫存/2026APMMS東京/2026 APMMS會議整理/APMMS_website
+
+推薦先本機確認：
+cd "/Users/kobeyang/Desktop/20260513暫存/2026APMMS東京/2026 APMMS會議整理/APMMS_website"
+python3 -m http.server 8000
+然後用瀏覽器開：
+http://localhost:8000/
+
+重要：目前尚未上傳到任何外部網站。
+若要讓別人直接用網址開啟，需要你明確指定平台並同意上傳。
+
+可選上線方式：
+
+方案 1：Netlify Drop（最簡單）
+1. 到 https://app.netlify.com/drop
+2. 把整個 APMMS_website 資料夾拖進去
+3. Netlify 會產生一個網址
+4. 若內容不適合公開，請改用有權限控管的平台
+
+方案 2：Vercel
+1. 建立新專案
+2. 上傳此資料夾或連接 Git repo
+3. Framework 選 Other / Static
+4. Output directory 保持根目錄
+
+方案 3：GitHub Pages
+1. 建立 private 或 public repo
+2. 上傳此資料夾內容
+3. Settings → Pages → Deploy from branch
+4. 因已加入 .nojekyll，可避免 GitHub Pages 處理底線資料夾時出錯
+
+方案 4：只給對方 zip
+1. 傳送 APMMS_website_static_20260603_161903.zip
+2. 對方解壓縮
+3. 開 index.html
+4. 若搜尋頁不能用，對方可用 python3 -m http.server 8000 開本機伺服器
+
+隱私提醒：
+- 若內容含內部資料、未公開會議整理、講者照片/投影片截圖，請不要公開部署。
+- 若要部署，我建議先決定：公開網址、私密連結、密碼保護、或只給 zip。

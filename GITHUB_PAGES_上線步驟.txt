@@ -1,0 +1,30 @@
+GitHub Pages 準備版資料夾：
+/Users/kobeyang/Desktop/20260513暫存/2026APMMS東京/2026 APMMS會議整理/APMMS_website_github_pages
+
+目前狀態：
+- 已準備好 GitHub Pages 版本
+- 尚未上傳 GitHub
+- 尚未建立 remote
+- 尚未 push
+
+建議 repository 名稱：
+apmms-2026-tokyo-site
+
+如果你自己手動上傳：
+1. 到 GitHub 建立新 repository，例如 apmms-2026-tokyo-site。
+2. 選 private 或 public。
+3. 不要勾選自動建立 README（因本資料夾已含 README.md）。
+4. 將本資料夾內容上傳或用 git push。
+5. Settings → Pages。
+6. Source 建議選：
+   Deploy from branch：main / root
+
+注意：目前版本未使用 GitHub Actions workflow，因為目前可用的 GitHub 認證 token 沒有 workflow scope。
+
+若使用 git 指令，範例：
+cd "/Users/kobeyang/Desktop/20260513暫存/2026APMMS東京/2026 APMMS會議整理/APMMS_website_github_pages"
+git remote add origin https://github.com/YOUR_ACCOUNT/apmms-2026-tokyo-site.git
+git branch -M main
+git push -u origin main
+
+注意：以上 git remote / push 指令我沒有執行。

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "session-1",
+    "label": "Session 1",
+    "title": "The language of myopia management: aligning definitions with evidence and recent developments",
+    "axis": "建立近視管理的語言：從度數控制延伸到眼軸、病理風險與 lifelong eye care。",
+    "speakers": [
+      "ian-flitcroft",
+      "niall-crosby"
+    ]
+  },
+  {
+    "id": "session-2",
+    "label": "Session 2",
+    "title": "Science that protects vision and ocular health over time: insights from longitudinal and randomised controlled trials, and behavioural science principles",
+    "axis": "以長期臨床研究、真實世界資料與行為科學，說明治療效果如何在日常照護中被實現。",
+    "speakers": [
+      "paul-chamberlain-team",
+      "maria-liu",
+      "sasha-cain"
+    ]
+  },
+  {
+    "id": "session-3",
+    "label": "Session 3",
+    "title": "Integrating evidence, experience and efficiency in myopia management",
+    "axis": "聚焦亞洲臨床導入、個別化治療、組合療法與實務效率。",
+    "speakers": [
+      "saiko-matsumura",
+      "kiichiro-okano",
+      "kyeong-wook-lee",
+      "li-lian-foo-wei-yan-ng",
+      "kate-gifford"
+    ]
+  }
+]
