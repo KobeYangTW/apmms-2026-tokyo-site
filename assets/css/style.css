@@ -31,3 +31,18 @@ a{color:var(--violet);text-decoration:none} a:hover{text-decoration:underline}
 
 @media(max-width:720px){.insight-rail{grid-template-columns:1fr;overflow-x:visible}.visual-strip img{height:150px}.hero-actions{gap:8px}.mini-badge{opacity:.88}}
 @media(min-width:721px) and (max-width:1100px){.insight-rail{grid-template-columns:repeat(2,minmax(0,1fr));overflow-x:visible}}
+
+
+/* translation pages */
+.translation-hero{background:linear-gradient(135deg,#24124d,#5436a8 55%,#10a9c7);}
+.translation-card h3{min-height:3.2em;}
+.translation-card .muted{font-size:.92rem;line-height:1.55;}
+.translation-content{font-size:1.02rem;line-height:1.9;}
+.translation-content h2{margin-top:0;}
+.translation-content h3{margin-top:2rem;color:#44206f;}
+.translation-content h4{margin:1.35rem 0 .45rem;color:#16758a;font-size:1.02rem;}
+.translation-content p{margin:.72rem 0;}
+.translation-content ul{margin:.7rem 0 1.1rem 1.2rem;}
+.translation-content li{margin:.38rem 0;line-height:1.75;}
+.translation-meta{background:#f3efff;border-left:4px solid #6c4bd2;padding:14px 16px;border-radius:14px;margin:0 0 20px;color:#2c2350;line-height:1.75;}
+@media(max-width:820px){.translation-card h3{min-height:auto}.translation-content{font-size:1rem;}}
